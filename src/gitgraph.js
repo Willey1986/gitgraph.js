@@ -1464,6 +1464,7 @@
     this.commit.spacingX = options.commit.spacingX || 0;
     this.commit.spacingY = (typeof options.commit.spacingY === "number") ? options.commit.spacingY : 25;
     this.commit.widthExtension = (typeof options.commit.widthExtension === "number") ? options.commit.widthExtension : 0;
+    this.commit.heightExtension = (typeof options.commit.heightExtension === "number") ? options.commit.heightExtension : 0;
     this.commit.tooltipHTMLFormatter = options.commit.tooltipHTMLFormatter || null;
     this.commit.shouldDisplayTooltipsInCompactMode = _booleanOptionOr(options.commit.shouldDisplayTooltipsInCompactMode, true);
 
