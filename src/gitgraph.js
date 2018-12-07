@@ -269,6 +269,7 @@
     }
 
     unscaledResolution.x += this.template.commit.widthExtension;
+    unscaledResolution.y += this.template.commit.heightExtension;
 
     this.canvas.style.width = unscaledResolution.x + "px";
     this.canvas.style.height = unscaledResolution.y + "px";
